@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
     color: #333;
     background-color: #ffffff;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #4682B4;
+    background-color: #193131;
     color: #fff;
     padding: 0.1rem;
     text-align: center;
@@ -40,12 +40,24 @@ header nav ul li a {
 }
 
 .jumbotron {
-    background-color: #46b4b4;
+
+/* Style for the enroll text */
+.enroll-text h2 {
+    color: red; /* Red color */
+    text-align: center; /* Center the text */
+    font-size: 2rem; /* Adjust size as needed */
+    font-weight: bold; /* Make it bold */
+    margin-bottom: 20px; /* Add some space below the text */
+    text-transform: uppercase; /* Optional: make the text all caps */
+}
+
+
+    background-color: #99a3a3;
     color: #ffffff;
 }
 
 .enroll {
-    background-color: #4682B4;
+    background-color: #0f160b;
     color: #ffffff;
 }
 
