@@ -12,8 +12,10 @@ document.getElementById("enrollButton").addEventListener("click", () => {
     alert("Enrollment page is under development. Stay tuned!");
 });
 
-// Form submission message
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-    e.preventDefault();
-    alert("Thank you for your message. We will be in touch soon!");
+document.getElementById('openMenu').addEventListener('click', () => {
+    document.getElementById('sidebar').style.display = 'block';
+});
+
+document.getElementById('closeMenu').addEventListener('click', () => {
+    document.getElementById('sidebar').style.display = 'none';
 });
